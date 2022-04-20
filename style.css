@@ -1,0 +1,366 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ font-size: 3.5rem;
+ color: #008080;
+ /* color: #f88379; */
+}
+
+h2{
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ font-size: 3rem;
+ color:rgb(230, 212, 212);
+ text-align: center;
+}
+h3 {
+ color:rgb(230, 212, 212);
+ font-size: 1.5rem;
+}
+h4, h5{
+ color: #008080;
+ font-size: 1.2rem;
+}
+
+p {
+ font-size: 1.5rem;
+ color: #f88379;
+ }
+span {
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.5rem;
+ }
+ a{
+  text-decoration: none;
+ }
+ hr{
+   width: 10%;
+   margin: auto;
+   border: none;
+   height: 20%;
+   background-color: #fff;
+   border-top: 10px dotted  #f88379 ;
+   margin-top: 5%; 
+ }
+/* Home */
+#home{
+/* background-color:rgb(230, 212, 212); */
+text-align: center;
+position: relative;
+}
+.frame{
+ border-bottom-right-radius: 10%;
+ height: 100%;
+ width: 100%;
+ position: absolute;
+ left: 0;
+ z-index: 1;
+ }
+.intro {
+padding: 15% 0% 0%;
+}
+ 
+.redrose {
+ width: 250px;
+ position: absolute;
+ left: 10px;
+ transform: rotate(-30deg);
+  
+}
+.redrose2 {
+ width: 150px;
+ position: absolute;
+ left: 40px;
+ top: 30px;
+}
+/* Navbar */
+.navigation{
+ padding-left: 30%;
+ font-size: 1.2rem;
+}
+.nav-link {
+ color: #008080 !important;
+}
+.nav-link:hover {
+ color: #f88379 !important;
+}
+
+.home-imgs{
+ position: relative; 
+ height: 70vh;
+ margin: 0 5%;
+ background-color:#008080;
+ background-image:url(./images/DSC_8665home.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+/* .couple{
+ height: 80vh;
+ position: relative;
+ width: 40vw;
+} */
+ 
+
+/* ourstory */
+#ourstory {
+ /* background-color: rgb(230, 212, 212); */
+ padding-top: 10%; 
+ position: relative;
+ margin-top: -5%; 
+}
+#ourstory,h1{
+ text-align: center;
+ padding-bottom: 5%;
+}
+.weddingcouple{
+ width: 100px;
+ position: absolute;
+ top: 10px;
+ left: 5px;
+ z-index: 1;
+ transform: rotate(-8deg);
+}
+.chanai{
+ padding: 0 10% 10%; 
+ color: #008080;
+ letter-spacing: 1px;
+ text-align:center;
+ line-height: 1.5 !important;
+}
+video{
+  width: 100%;
+  height: 400px;
+}
+ 
+.storytext{ 
+ padding: 5% 10%; 
+ color: #008080;
+ font-weight: 300;
+}
+/* .whiterose{
+height: 40vh;
+width: 100%;
+} */
+.clock{
+  text-align: center;
+  padding-top: 10%;
+}
+.countDownTimer{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10%;  
+}
+/* banner */
+ 
+#gallery{
+  display: flex;   
+  flex-wrap: wrap;
+}
+.banner {
+  height: 500px;
+  align-self: center; 
+}
+.notice{
+  width: 40%;
+  margin-left: 10%;
+}
+ button{
+padding: 0 2%;
+border-radius: 10%;
+background-color: #f88379;
+font-weight: bold;
+ }
+ button,a {
+   color: #008080;
+ }
+/* schedule */
+#schedule{
+ background-color: #f88379;  
+ display: flex; 
+ flex-wrap: wrap; 
+ position: relative;
+}
+.activity{
+ padding: 5% 0 1% 10%; 
+}
+.head3{
+ text-align: center;
+}
+.party{
+ height: 30%;
+ width: 20%;
+ position: absolute;
+ right: 1px;
+ bottom: 1px;
+ border-radius: 2%;
+}
+/* Map */
+.map{
+  height: 300px;
+  width: 100%;
+}
+
+/* rsvp */
+ #rsvp {
+  background-color: #008080;
+  padding-top: 2% ;
+ }
+ .reserve{
+  text-align: center;
+ }
+ .reservetext{
+  display: flex;
+  justify-content: center;
+  transition: linear .4s;
+ }
+ .reservetext:hover{
+  letter-spacing: 5px;
+  cursor: pointer; 
+ }
+ .rt{
+  padding: 2% 5%;
+ }
+ /* .form{
+  margin: 2% 40% 0;  
+ }
+ label{
+  color: rgb(230, 212, 212);
+  font-size: 1.2rem;
+  font-weight: bold;
+ }
+ input{
+  background-color: transparent;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid rgb(230, 212, 212);
+  outline:none;
+ }
+.btn{
+   margin: 2% 30% 0;
+   color: rgb(230, 212, 212);
+   font-weight: bold;
+   border-radius: 10px;
+   border: 1px solid;
+   transition:linear, .4s, ease-in-out;
+}
+.btn:hover{
+ background-color: #f88379; 
+ color: rgb(230, 212, 212);
+ transform: scale(0.98); */
+/* } */
+
+.icons{
+ display: flex;
+ justify-content: center;
+ padding:  2% ;
+}
+.fas{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 20px;
+}
+.fab, .fas{
+ padding: 0 20px;
+ color: #f88379; 
+ transition: linear, 2s, ease-in;
+}
+.fab:hover{
+ transition: linear, 2s, ease-in;
+ transform: translateY(-15px);
+}
+.fas{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 40px;
+}
+ 
+ @media (max-width:900px){
+  .intro {
+padding: 25% 0% 0%;
+}
+.navigation{
+ padding-left: 5%; 
+}
+h1{ 
+ font-size: 2rem;
+}
+ p,h2, h4,h5,span {
+ font-size: 1rem;
+ }
+ h3{
+  font-size: 0.5rem;
+ }
+ 
+ .weddingcouple, .rsvpimg{
+ width: 60px;
+ }
+ .redrose, .redrose2{
+  width: 90px;
+ }
+ .redrose2 {
+display: none;
+}
+.home-imgs{
+ position: relative; 
+ height: 50vh;
+ margin: 0;
+ background-position: center;
+ background-size:contain;
+
+}
+.couple{
+  height: 50vh;
+ }
+ /* our story */
+ #ourstory {
+ padding-top: 20% ;  
+}
+/* gallery */
+.notice{
+  width: 80%;
+  margin: 10%;
+}
+.banner {
+  padding: 0;
+}
+/* schedule */
+.activity{
+ width: 70%;
+}
+.party{
+ margin-left: 25%; 
+}
+
+/* rsvp */
+ 
+.form{
+  margin: 5% 25% 0;  
+ }
+ label{
+  font-size: 1rem;
+ }
+ .fab{
+ transform: scale(.5);
+}
+.fab:hover{
+ transition: linear, 2s, ease-in;
+ transform: scale(.7);
+}
+.fas{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 40px;
+}
+ 
+ }
